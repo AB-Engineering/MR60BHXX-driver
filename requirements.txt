@@ -1,0 +1,10 @@
+# Core dependencies
+pyserial>=3.5
+
+# Optional development dependencies
+# Uncomment these for development work:
+# pytest>=6.0
+# pytest-cov>=2.0
+# black>=21.0
+# flake8>=3.9
+# mypy>=0.9
