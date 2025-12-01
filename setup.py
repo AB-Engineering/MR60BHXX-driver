@@ -8,7 +8,6 @@ Date: 2025-11-22
 from setuptools import setup, find_packages
 from pathlib import Path
 
-# Read the README file
 readme_file = Path(__file__).parent / "README.md"
 long_description = readme_file.read_text(encoding='utf-8') if readme_file.exists() else ""
 
@@ -21,6 +20,9 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/AB-Engineering/MR60BHXX-driver',
     packages=find_packages(),
+    license='MIT',
+    # include the license file properly:
+    license_files=['LICENSE'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
