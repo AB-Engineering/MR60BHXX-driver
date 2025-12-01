@@ -1,5 +1,5 @@
 """
-Setup script for the Seeed MR60BHA2 mmWave sensor library.
+Setup script for the MR60BHXX-driver Python package.
 
 Author: AB-Engineering
 Date: 2025-11-22
@@ -19,7 +19,7 @@ setup(
     description='Python library for Seeed MR60BHA2 mmWave heart rate and breath monitoring sensor',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/AB-Engineering/MR60BHXX-python-driver',
+    url='https://github.com/AB-Engineering/MR60BHXX-driver',
     packages=find_packages(),
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -50,8 +50,8 @@ setup(
     },
     keywords='seeed mmwave sensor heart-rate breath-rate raspberry-pi iot',
     project_urls={
-        'Documentation': 'https://github.com/AB-Engineering/MR60BHXX-python-driver',
-        'Source': 'https://github.com/AB-Engineering/MR60BHXX-python-driver',
-        'Tracker': 'https://github.com/AB-Engineering/MR60BHXX-python-driver/issues',
+        'Documentation': 'https://github.com/AB-Engineering/MR60BHXX-driver',
+        'Source': 'https://github.com/AB-Engineering/MR60BHXX-driver',
+        'Tracker': 'https://github.com/AB-Engineering/MR60BHXX-driver/issues',
     },
 )
