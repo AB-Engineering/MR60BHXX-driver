@@ -3,7 +3,7 @@ requires = ["setuptools>=64", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "seeed-mr60bha2"
+name = "MR60BHXX-driver"
 version = "1.0.0"
 description = "Python library for Seeed MR60BHA2 mmWave heart rate and breath monitoring sensor"
 readme = "README.md"
