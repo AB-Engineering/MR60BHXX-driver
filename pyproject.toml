@@ -44,10 +44,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/AB-Engineering/MR60BHXX-python-driver"
-Documentation = "https://github.com/AB-Engineering/MR60BHXX-python-driver"
-Repository = "https://github.com/AB-Engineering/MR60BHXX-python-driver"
-Issues = "https://github.com/AB-Engineering/MR60BHXX-python-driver/issues"
+Homepage = "https://github.com/AB-Engineering/MR60BHXX-driver"
+Documentation = "https://github.com/AB-Engineering/MR60BHXX-driver"
+Repository = "https://github.com/AB-Engineering/MR60BHXX-driver"
+Issues = "https://github.com/AB-Engineering/MR60BHXX-driver/issues"
 
 [tool.setuptools]
 packages = ["seeed_mr60bha2"]
