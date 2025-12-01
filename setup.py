@@ -13,7 +13,7 @@ readme_file = Path(__file__).parent / "README.md"
 long_description = readme_file.read_text(encoding='utf-8') if readme_file.exists() else ""
 
 setup(
-    name='seeed-mr60bha2',
+    name='MR60BHXX-driver',
     version='1.0.0',
     author='AB-Engineering',
     description='Python library for Seeed MR60BHA2 mmWave heart rate and breath monitoring sensor',
