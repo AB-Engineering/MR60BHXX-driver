@@ -53,7 +53,7 @@ Issues = "https://github.com/AB-Engineering/MR60BHXX-driver/issues"
 [tool.setuptools]
 packages = ["seeed_mr60bha2"]
 # include the license file in built sdist/wheel metadata correctly:
-license-files = ["LICENSE"]
+# license-files = ["LICENSE"]
 
 [tool.black]
 line-length = 88
